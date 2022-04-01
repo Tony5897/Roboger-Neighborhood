@@ -51,9 +51,21 @@ Test: "It should return a string of elements."
 Code: RoboSay("1, b, 3, d, 5" );
 Expected Output: 5
 
+Test: "It should return an empty string in the index of an array"
+Code: RoboSay();
+Expected Output: 1
+
+Test: "It should return an element in the index of an array."
+Code: RoboSay(element);
+Expected Output:1
+
+Test: "It should return numbers in the index of an array."
+Code: RoboSay(1, 2, 3, 4, 5);
+Expected Output: 1
+
 Test: "It should identify if an element in a string is a number." 
 Code: RoboSay(3);
-Expected Output: true
+Expected Output: 1
 
 Test: It should identify if an element in a string is not a number."
 Code: RoboSay("a")
@@ -71,19 +83,31 @@ Test: "It should return a string of words."
 Code: RoboSay(""Beep!","Boop!", "Won't you be my neighbor?"")
 Expected Output: 1
 
-Test: "It should identify if the first number in a string is the number "1"?"
-Code: RoboSay("1")
+Test: "It should identify if the first number in a string is the number "3"?"
+Code: RoboSay("3")
+Expected Output: true
+
+Test: "It should identify if the second number in a string is the number "3"?"
+Code: RoboSay("3")
 Expected Output: true
 
 Test: "It should identify if the first number in a string is the number "2"?"
 Code: RoboSay("2")
 Expected Output: true
 
-Test: "It should identify if the first number in a string is the number "3"?"
-Code: RoboSay("3")
+Test: "It should identify if the second number in a string is the number "2"?"
+Code: RoboSay("2")
 Expected Output: true
 
-Test:  
+Test: "It should identify if the first number in a string is the number "1"?"
+Code: RoboSay("1")
+Expected Output: true
+
+Test: "It should identify if the second number in a string is the number "1"?"
+Code: RoboSay("1")
+Expected Output: true
+
+Test: "      
 Code:
 Expected Output:
 
