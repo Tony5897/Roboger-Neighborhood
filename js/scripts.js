@@ -1,5 +1,5 @@
 // Business Logic
-function roboger() {
+function robogerSay() {
 
   }
 
@@ -27,7 +27,8 @@ function roboger() {
 
 
 
-// UI Logic
+// User Interface Logic
 $(document).ready(function(){
-  console.log(""))
-});
+  console.log("")
+
+ });

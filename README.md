@@ -5,7 +5,7 @@
 
 ## **Technologies Used:**
 
- * ***EXAMPLE: PROGRAMMING LANGUAGES USED, FRAMEWORK, ETC.***
+## * ***EXAMPLE: PROGRAMMING LANGUAGES USED, FRAMEWORK, ETC.***
  * _HTML,_ _CSS,_ _and_ _JavaScript...Python...PHP_
  * _jQuery_, _bootstrap_, _ect_....
  * _Any other major technologies?_
@@ -16,19 +16,68 @@
  * _What_
  * _Why_
  * _How_ -->
+#
+# Expected Output :
 
-# Expected Output
-
-# *Testing Block*
-
-
-
-
-
-
+## Testing Block
+## Rules for Roboger
+  *
+  *
+  *
 
 
 
+Describe: RoboSay();
+
+
+Test: "It will return an empty string"
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
+
+
+Test:
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
+
+#
+
+Describe: RoboSayUtility();
+
+Test:
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
 
 
 
@@ -49,12 +98,23 @@
 
 
 
-
-## *Business Logic*
-* 
+# 
+# Business Logic
+* (TBD)
 * 
 *  
 *
+
+
+
+
+
+
+
+
+
+
+#
 
 
 
