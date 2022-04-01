@@ -22,12 +22,17 @@
 ## Testing Block
 ## Rules for Roboger-Web App.
   * Number Substitutions: "1, 2, and 3"
+  * Hierarchy of Substitutions: Least to Most Important.
   * "1" = "Beep!" | "2" = "Boop! | "3" = "Won't you be my neighbor?"
-  * All outputs return range beginning ZERO/"0"
+  * All outputs return range beginning with ZERO/"0"
   * Start with ZERO/"0", continue listing ranges end at user inputted number.
-  * All numbers of listed "Number Substitution"(1, 2, and 3) are SUBSTITUTED ALTOGETHER after when range is being range is being listed.
-  * Account for new 
-
+  * All numbers of listed "Number Substitution"(1, 2, and 3) are SUBSTITUTED ALTOGETHER for SUBSTITUTED DIALOGUE range is being listed. Ex. "1" & "11" = "Beep!" OR "2" & "22" = "Boop!"
+  * Account new user number for new results.
+  * Account for "Hierarchy of Substitutions" : 
+    * "1"= Least Important to "3"= Most Important
+    * "3, 13, 23, 32, 33..321 and so on" = "Won't you be my neighbor?"(Most Important/1st)
+    * "2, 12, 21, 22, 24..202 and so on" = "Boop"(Important/2nd)
+    * "1, 11, 100, 104 and so on = "Beep!(Least Important/3rd)
 
 #
 Describe: RoboSay();
