@@ -1,6 +1,6 @@
 // Business Logic
-function robogerSay() {
-
+function robogerSay(roboRay); {
+let roboRay = "";
   }
 
 
@@ -29,6 +29,5 @@ function robogerSay() {
 
 // User Interface Logic
 $(document).ready(function(){
-  console.log("")
 
  });
