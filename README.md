@@ -20,13 +20,16 @@
 # Expected Output :
 
 ## Testing Block
-## Rules for Roboger
-  *
-  *
-  *
+## Rules for Roboger-Web App.
+  * Number Substitutions: "1, 2, and 3"
+  * "1" = "Beep!" | "2" = "Boop! | "3" = "Won't you be my neighbor?"
+  * All outputs return range beginning ZERO/"0"
+  * Start with ZERO/"0", continue listing ranges end at user inputted number.
+  * All numbers of listed "Number Substitution"(1, 2, and 3) are SUBSTITUTED ALTOGETHER after when range is being range is being listed.
+  * Account for new 
 
 
-
+#
 Describe: RoboSay();
 
 
