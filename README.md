@@ -20,6 +20,7 @@
 # Expected Output :
 
 ## Testing Block
+# 
 ## Rules for Roboger-Web App.
   * Number Substitutions: "1, 2, and 3"
   * Hierarchy of Substitutions: Least to Most Important.
@@ -39,16 +40,16 @@ Describe: RoboSay();
 
 
 Test: "It will return an empty string"
-Code:
-Expected Output:
+Code: ("");
+Expected Output:""
 
-Test:
-Code:
-Expected Output:
+Test: "It return an element."
+Code: RoboSay(e)
+Expected Output: e
 
-Test:
-Code:
-Expected Output:
+Test: "It should return a number."
+Code: RoboSay(1)
+Expected Output: 1
 
 Test:
 Code:
