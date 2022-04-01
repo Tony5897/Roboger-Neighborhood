@@ -39,18 +39,58 @@
 Describe: RoboSay();
 
 
-Test: "It will return an empty string"
-Code: ("");
-Expected Output:""
+Test: "It should return a empty string"
+Code: RoboSay("");
+Expected Output: 0
 
-Test: "It return an element."
-Code: RoboSay(e)
-Expected Output: e
-
-Test: "It should return a number."
-Code: RoboSay(1)
+Test: "It should return a element in a string."
+Code: RoboSay("e");
 Expected Output: 1
 
+Test: "It should return a string of elements."
+Code: RoboSay("1, b, 3, d, 5" );
+Expected Output: 5
+
+Test: "It should identify if an element in a string is a number." 
+Code: RoboSay(3);
+Expected Output: true
+
+Test: It should identify if an element in a string is not a number."
+Code: RoboSay("a")
+Expected Output: false
+
+Test: "It should identify "0" 
+Code: RoboSay("0")
+Expected Output: 1
+
+Test: "It should return a string of numbers."
+Code: RoboSay("1, 2, 3, 4, 5, 6, 7")
+Expected Output: 1
+
+Test: "It should return a string of words." 
+Code: RoboSay(""Beep!","Boop!", "Won't you be my neighbor?"")
+Expected Output: 1
+
+Test: "It should identify if the first number in a string is the number "1"?"
+Code: RoboSay("1")
+Expected Output: true
+
+Test: "It should identify if the first number in a string is the number "2"?"
+Code: RoboSay("2")
+Expected Output: true
+
+Test: "It should identify if the first number in a string is the number "3"?"
+Code: RoboSay("3")
+Expected Output: true
+
+Test:  
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
+
 Test:
 Code:
 Expected Output:
@@ -59,6 +99,17 @@ Test:
 Code:
 Expected Output:
 
+Test:
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
+
+Test:
+Code:
+Expected Output:
 
 Test:
 Code:
@@ -71,6 +122,11 @@ Expected Output:
 Test:
 Code:
 Expected Output:
+
+Test:
+Code:
+Expected Output:
+
 
 #
 
