@@ -68,104 +68,103 @@ Code: RoboSay(3);
 Expected Output: 1
 
 Test: It should identify if an element in a string is not a number."
-Code: RoboSay("a")
+Code: RoboSay("a");
 Expected Output: false
 
 Test: "It should identify "0" 
-Code: RoboSay("0")
+Code: RoboSay("0");
 Expected Output: 1
 
-Test: "It should return a string of numbers."
-Code: RoboSay("1, 2, 3, 4, 5, 6, 7")
+Test: "It should return a user's input of a number."
+Code: RoboSay(7);
+Expected Out: 1
+
+Test: "It should return a user input of any number."
+Code: RoboSay(45);
+Expected Output: 1
+
+Test: "It should return a string of numbers including "0"."
+Code: RoboSay("0, 5, 9, 7, 6, 8");
+Expected Output: 1
+
+Test: "It should return a string of numbers that increment up from "0"."
+Code: RoboSay("0, 1, 2, 3, 4, 5, 6, 7");
 Expected Output: 1
 
 Test: "It should return a string of words." 
 Code: RoboSay(""Beep!","Boop!", "Won't you be my neighbor?"")
 Expected Output: 1
 
-Test: "It should identify if the first number in a string is the number "3"?"
-Code: RoboSay("3")
+Test: "It should identify if user input of the first number in a string is the number "3"?"
+Code: RoboSay("3");
 Expected Output: true
 
-Test: "It should identify if the second number in a string is the number "3"?"
-Code: RoboSay("3")
+Test: "It should identify if user input of the second number in a string is the number "3"?"
+Code: RoboSay("3");
 Expected Output: true
 
-Test: "It should identify if the first number in a string is the number "2"?"
-Code: RoboSay("2")
+Test: "It should identify if user input of the first number in a string is the number "2"?"
+Code: RoboSay("2");
 Expected Output: true
 
-Test: "It should identify if the second number in a string is the number "2"?"
-Code: RoboSay("2")
+Test: "It should identify if user input of the second number in a string is the number "2"?"
+Code: RoboSay("2");
 Expected Output: true
 
-Test: "It should identify if the first number in a string is the number "1"?"
-Code: RoboSay("1")
+Test: "It should identify if user input of the first number in a string is the number "1"?"
+Code: RoboSay("1");
 Expected Output: true
 
-Test: "It should identify if the second number in a string is the number "1"?"
-Code: RoboSay("1")
+Test: "It should identify if user input of the second number in a string is the number "1"?"
+Code: RoboSay("1");
 Expected Output: true
 
-Test: "      
-Code:
+Test: "It should replace the numbers "3" with "Won't you be my neighbor?"."     
+Code: RoboSay();
+Expected Output: 1
+
+Test: "It should replace the numbers "2" with the word "Boop!"."
+Code: RoboSay();
 Expected Output:
 
-Test:
-Code:
+Test: "It should replace the numbers "1" with "Beep!"."
+Code: RoboSay();
 Expected Output:
 
-Test:
-Code:
+Test: "It should return a user's input of any number with a range of numbers."
+Code: RoboSay();
 Expected Output:
 
-Test:
-Code:
+Test: "It should return a user's input of any number with a range of numbers starting with the number "0"."
+Code: RoboSay();
 Expected Output:
 
-Test:
-Code:
+Test: "It should return a user's input of any number with a range of numbers that begin with a "0" including the user's inputted number."
+Code: RoboSay();
 Expected Output:
 
-Test:
-Code:
+Test: "It should return a user's input of any number with a range of numbers beginning with a "0" including the user's inputted number and replacing either "1, 2, or 3" with the word "Beep!", "Boop", or "Won't you be my neighbor?"." 
+Code: RoboSay();
 Expected Output:
 
-Test:
-Code:
+Test: "It should return a user's input of any number with a range of numbers beginning with a "0" including the user's inputted number and replacing either "1, 2, or 3" with the word "Beep!", "Boop", or "Won't you be my neighbor?" and return a new range of numbers with new user inputted number everytime." 
+Code: RoboSay();
 Expected Output:
-
-Test:
-Code:
-Expected Output:
-
-Test:
-Code:
-Expected Output:
-
-Test:
-Code:
-Expected Output:
-
-Test:
-Code:
-Expected Output:
-
 
 #
 
 Describe: RoboSayUtility();
 
-Test:
-Code:
+Test: It should ignore any user input of punctuation
+Code: RoboSay();
 Expected Output:
 
-Test:
-Code:
+Test: "It should ignore any user input of elements that are not numbers."
+Code: RoboSay();
 Expected Output:
 
-Test:
-Code:
+Test: "It should ignore place value."
+Code: RoboSay();
 Expected Output:
 
 
